@@ -1,6 +1,8 @@
 # Go-Finances-Web
 
-Go-Finances is a web application designed to handle financial data by uploading CSV files and performing balance calculations based on the transactions provided in these files.
+Go-Finances is a web application designed to handle financial data by uploading CSV files and performing balance calculations based on the transactions provided in these files. 
+
+**Note:** This project must run alongside the [Go-Finances API](https://github.com/renatosilveira99/go-finances-api) to function properly.
 
 ## Features
 
@@ -13,26 +15,31 @@ Go-Finances is a web application designed to handle financial data by uploading 
 
 To get started with Go-Finances-Web, follow these steps:
 
-1. Clone the repository:
+1. **Clone the repositories:**
 
    ```bash
-   git clone https://github.com/renatosilveira99/go-finances-web.git
-   cd go-finances-web
+   git clone https://github.com/yourusername/go-finances-web.git
+   git clone https://github.com/yourusername/go-finances-api.git
    ```
 
-2. Install dependencies:
+2. **Set up and start the Go-Finances API:**
+
+   Follow the instructions in the [Go-Finances API README](https://github.com/renatosilveira99/go-finances-api) to set up and run the API.
+
+3. **Navigate to the Go-Finances-Web directory and install dependencies:**
 
    ```bash
+   cd go-finances-web
    npm install
    ```
 
-3. Start the development server:
+4. **Start the development server:**
 
    ```bash
    npm start
    ```
 
-4. Open your browser and navigate to `http://localhost:3000` to access the application.
+5. **Open your browser and navigate to `http://localhost:3000` to access the Go-Finances-Web application.**
 
 ## Dependencies
 
